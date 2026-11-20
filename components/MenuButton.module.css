@@ -1,0 +1,43 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  padding: 0.4rem 0.8rem;
+  border: 2px solid var(--navy);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--navy);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.icon,
+.icon::before,
+.icon::after {
+  display: block;
+  width: 1.1rem;
+  height: 2px;
+  background: currentColor;
+}
+
+.icon {
+  position: relative;
+}
+
+.icon::before,
+.icon::after {
+  content: '';
+  position: absolute;
+  left: 0;
+}
+
+.icon::before { top: -6px; }
+.icon::after { top: 6px; }
+
+@media (min-width: 52em) {
+  .button {
+    display: none;
+  }
+}

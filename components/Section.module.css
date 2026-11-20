@@ -1,0 +1,27 @@
+.section {
+  padding: var(--space-section) 0;
+  scroll-margin-top: 5rem;
+}
+
+.inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+.alt {
+  background: var(--surface);
+}
+
+.navy {
+  background: var(--navy);
+  color: #e6edf8;
+}
+
+.navy h2 {
+  color: #ffffff;
+}
+
+.navy :focus-visible {
+  outline-color: var(--amber);
+}

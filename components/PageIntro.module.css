@@ -1,0 +1,22 @@
+.intro {
+  padding: clamp(2rem, 6vw, 3.5rem) 0 clamp(1.5rem, 4vw, 2.5rem);
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+.intro h1 {
+  margin-bottom: 0.4em;
+}
+
+.lead {
+  max-width: 42rem;
+  margin: 0;
+  font-size: 1.15rem;
+  color: var(--text-muted);
+}

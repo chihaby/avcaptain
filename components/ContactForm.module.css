@@ -1,0 +1,39 @@
+.form {
+  display: grid;
+  gap: 1.25rem;
+  padding: clamp(1.25rem, 4vw, 2rem);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.note {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+/* Honeypot field: hidden from people, visible to bots */
+.trap {
+  position: absolute;
+  left: -9999px;
+  height: 0;
+  overflow: hidden;
+}
+
+.problem {
+  margin: 0;
+  color: #b3261e;
+  font-weight: 600;
+}
+
+.success {
+  padding: 2rem;
+  background: var(--surface);
+  border: 2px solid #1b7f4c;
+  border-radius: var(--radius);
+}
+
+.success p {
+  margin: 0;
+}

@@ -1,0 +1,28 @@
+.split {
+  display: grid;
+  gap: 2rem;
+}
+
+.aside {
+  align-self: start;
+  padding: 1.5rem;
+  background: var(--navy);
+  border-radius: var(--radius);
+  color: #e6edf8;
+}
+
+.aside h2,
+.aside h3 {
+  color: #ffffff;
+}
+
+.aside :focus-visible {
+  outline-color: var(--amber);
+}
+
+@media (min-width: 52em) {
+  .split {
+    grid-template-columns: 1.7fr 1fr;
+    gap: 3rem;
+  }
+}
