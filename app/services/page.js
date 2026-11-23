@@ -28,7 +28,11 @@ export default function ServicesPage() {
         <CardGrid items={gear} />
       </Section>
       <Section id="area" title="Where I work">
-        <p>I serve the whole San Francisco Bay Area, including smaller nearby towns.</p>
+        <p>
+          I'm based in Oakland and serve the whole San Francisco Bay Area, including smaller
+          nearby towns. Need audio somewhere else? I travel to other states for events when
+          travel and lodging are covered.
+        </p>
         <ServiceArea />
       </Section>
       <CallToAction />

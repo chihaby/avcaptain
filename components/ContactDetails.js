@@ -12,10 +12,10 @@ export default function ContactDetails() {
         <span className={styles.label}>Email</span>
         <a href={`mailto:${site.email}`}>{site.email}</a>
       </li>
-      <li>
+      {/* <li>
         <span className={styles.label}>Response time</span>
         {site.replyTime}
-      </li>
+      </li> */}
     </ul>
   );
 }
