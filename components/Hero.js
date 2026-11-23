@@ -9,11 +9,10 @@ export default function Hero() {
       <div className={styles.inner}>
         <div>
           <h1 id="hero-title">
-            Clear, reliable audio and video for your corporate meetings across the Bay Area
+            Corporate AV for small and mid-sized businesses across the Bay Area
           </h1>
           <p className={styles.lead}>
-            Freelance AV for boardrooms, all-hands, conferences, and hybrid events in San
-            Francisco, Oakland, San Jose, and nearby towns.
+            Clear, reliable audio and AV for your meetings, all-hands, conferences, and hybrid events in Oakland, San Francisco, San Jose, and nearby towns.
           </p>
           <div className={styles.actions}>
             <Button href="/contact#schedule">Schedule a Call</Button>

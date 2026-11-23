@@ -10,7 +10,7 @@ import CallToAction from '@/components/CallToAction';
 export const metadata = pageMeta({
   title: 'Corporate AV Services and Service Area',
   description:
-    'Audio for boardroom meetings, all-hands, conferences, and hybrid events. Serving San Francisco, the Peninsula, South Bay, East Bay, and North Bay.',
+  'Corporate AV for small and mid-sized businesses: meetings, all-hands, conferences, hybrid events. Serving Oakland, San Francisco, San Jose, and the Bay Area.',
   path: '/services',
 });
 

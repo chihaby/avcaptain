@@ -9,9 +9,9 @@ import Button from '@/components/Button';
 import CallToAction from '@/components/CallToAction';
 
 export const metadata = pageMeta({
-  title: `Corporate AV and Audio for Meetings in the Bay Area | ${site.name}`,
+  title: `Corporate AV for Small and Mid-Sized Businesses | ${site.name}`,
   description:
-    'Freelance AV and audio for corporate meetings, all-hands, conferences, and hybrid events in San Francisco, Oakland, San Jose, and across the Bay Area.',
+  'Corporate AV and audio for small and mid-sized businesses. Meetings, all-hands, conferences, and hybrid events in Oakland, San Francisco, San Jose, and across the Bay Area.',
   path: '/',
 });
 

@@ -13,7 +13,7 @@ export const metadata = {
     template: `%s | ${site.name}`,
   },
   description:
-    'Freelance AV and audio for corporate meetings, all-hands, conferences, and hybrid events in San Francisco, Oakland, San Jose, and across the Bay Area.',
+  'Corporate AV and audio for small and mid-sized businesses. Meetings, all-hands, conferences, and hybrid events in Oakland, San Francisco, San Jose, and across the Bay Area.',
 };
 
 export const viewport = { themeColor: '#0b2545' };
